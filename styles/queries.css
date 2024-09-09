@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+/* Dispositivos móveis */
+
+@media screen and (max-width: 600px) {
+    form {
+        min-width: 90%;
+        transition: 0.5s;
+    }
+
+    #txt > h1 {
+        font-size: 1.1rem;
+        transition: 0.5s;
+    }
+}
