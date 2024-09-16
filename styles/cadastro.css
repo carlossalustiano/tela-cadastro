@@ -143,6 +143,7 @@ form {
     display: flex;
     justify-content: center;
     width: 100%;
+    padding: 4px;
 }
 
 #botao {
@@ -163,6 +164,12 @@ form {
 #botao:hover {
     background-color: rgba(16, 232, 77, 0.947);
     transition: 0.3s;
+    transform: translateY(-2px);
+}
+
+#botao:active {
+    background-color: rgba(15, 203, 68, 0.947);
+    transform: translateY(0);
 }
 
 /* Parágrafos inferiores */
